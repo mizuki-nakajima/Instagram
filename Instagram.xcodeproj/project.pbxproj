@@ -21,6 +21,7 @@
 		D32FDD8B22394FD10090CB90 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32FDD8A22394FD10090CB90 /* PostData.swift */; };
 		D32FDD8E223950940090CB90 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32FDD8C223950940090CB90 /* PostTableViewCell.swift */; };
 		D32FDD8F223950940090CB90 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32FDD8D223950940090CB90 /* PostTableViewCell.xib */; };
+		D3756DE1223BA0FC005AC499 /* PostCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3756DE0223BA0FC005AC499 /* PostCommentViewController.swift */; };
 		D3C3EE0622392D0600FBBE4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3C3EE0522392D0600FBBE4E /* GoogleService-Info.plist */; };
 		D873CD8C3732645F3BE93132 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AAD2312607DA36EF045B0D /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		D32FDD8A22394FD10090CB90 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		D32FDD8C223950940090CB90 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		D32FDD8D223950940090CB90 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		D3756DE0223BA0FC005AC499 /* PostCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentViewController.swift; sourceTree = "<group>"; };
 		D3C3EE0522392D0600FBBE4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				D32FDD8822394C3A0090CB90 /* Const.swift */,
 				D32FDD8A22394FD10090CB90 /* PostData.swift */,
 				D32FDD8C223950940090CB90 /* PostTableViewCell.swift */,
+				D3756DE0223BA0FC005AC499 /* PostCommentViewController.swift */,
 				D32FDD8D223950940090CB90 /* PostTableViewCell.xib */,
 			);
 			path = Instagram;
@@ -257,6 +260,7 @@
 				D30BCF052238FFDF00345B1C /* ViewController.swift in Sources */,
 				D30BCF032238FFDF00345B1C /* AppDelegate.swift in Sources */,
 				D30BCF1922390B5100345B1C /* ImageSelectViewController.swift in Sources */,
+				D3756DE1223BA0FC005AC499 /* PostCommentViewController.swift in Sources */,
 				D30BCF1722390B3A00345B1C /* HomeViewController.swift in Sources */,
 				D32FDD8922394C3A0090CB90 /* Const.swift in Sources */,
 				D32FDD8E223950940090CB90 /* PostTableViewCell.swift in Sources */,

@@ -11,10 +11,14 @@ import UIKit
 class PostTableViewCell: UITableViewCell {
     @IBOutlet weak var postImageView: UIImageView!
     @IBOutlet weak var likeButton: UIButton!
+    @IBOutlet weak var commentButton: UIButton!
     @IBOutlet weak var likeLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var captionLabel: UILabel!
+    @IBOutlet weak var commentLabel: UILabel!
     
+    
+    var commentData: String!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -31,6 +35,17 @@ class PostTableViewCell: UITableViewCell {
         self.postImageView.image = postData.image
         
         self.captionLabel.text = "\(postData.name!) : \(postData.caption!)"
+        
+        self.commentLabel.text = ""
+    
+        print(commentData)
+        for commentData in postData.comment{
+            
+             self.commentLabel.text = self.commentLabel.text! + commentData
+            //self.commentLabel.text = "\(commentData)\n" これだと最新コメントしか表示されない
+        }
+
+        
         let likeNumber = postData.likes.count
         likeLabel.text = "\(likeNumber)"
         

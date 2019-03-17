@@ -6,8 +6,6 @@
 //  Copyright © 2019 Nakajima Mizuki. All rights reserved.
 //
 
-//コメントびゅー
-
 import UIKit
 import Firebase
 import FirebaseDatabase
